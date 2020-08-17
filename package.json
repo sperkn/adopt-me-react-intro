@@ -1,0 +1,27 @@
+{
+  "name": "adopt-me-react-intro",
+  "version": "1.0.0",
+  "description": "An intro to React course from Frontend Masters taught by Brian Holt.",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier \"src/**/*.{js,html}\" --write",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sperkn/adopt-me-react-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sperkn/adopt-me-react-intro/issues"
+  },
+  "homepage": "https://github.com/sperkn/adopt-me-react-intro#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "prettier": "^2.0.5"
+  }
+}
