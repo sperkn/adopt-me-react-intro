@@ -3,6 +3,7 @@ import pet, { ANIMALS } from "@frontendmasters/pet";
 import Results from "./Results";
 import useDropdown from "./useDropdown";
 import ThemeContext from "./ThemeContext";
+import TextInput from "./Modal";
 
 const SearchParams = () => {
   const [location, setLocation] = useState("Seattle, WA");
@@ -34,6 +35,7 @@ const SearchParams = () => {
 
   return (
     <div className="search-params">
+      <TextInput />
       <form
         onSubmit={(e) => {
           e.preventDefault();
